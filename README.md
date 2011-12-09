@@ -1,3 +1,8 @@
+# About
+
+This YUI 3 utility is an adaption of the great jQuery Flexslider Plugin from Tyler Smith (see http://flex.madebymufffin.com/ for information about the jQuery Plugin). 
+It turns a specified node into a slideshow and gives you many options to configure look and behavior of it.
+
 # Getting started
 
 ##Step 1 - Link files
