@@ -18,7 +18,7 @@ Add these items to the head of your document. This will link YUI 3 and the FlexS
 
 ##Step 2 - Add markup
 
-The YUI 3 FlexSlider markup is simple and straightforward. First, start with a single containing element, `<div class="flexslider">` in this example. Then, create a `<ul class="slides">`. It is important to use this class because the slider targets that class specifically. Put your images and anything else you desire into each <li> and you are ready to rock.
+The YUI 3 FlexSlider markup is simple and straightforward. First, start with a single containing element, `<div class="flexslider">` in this example. Then, create a `<ul class="slides">`. It is important to use this class because the slider targets that class specifically. Put your images and anything else you desire into each '<li>' and you are ready to rock.
 
 ```html
 <!-- Place somewhere in the <body> of your page -->
@@ -39,7 +39,7 @@ The YUI 3 FlexSlider markup is simple and straightforward. First, start with a s
 
 ##Step 3 - Hook up the slider
 
-Lastly, add the following lines of Javascript into the <head> of your document, below the links from Step 1. The `Y.on('domread', function() {});` is required to ensure the content of the page is loaded before the plugin initializes.
+Lastly, add the following lines of Javascript into the '<head>' of your document, below the links from Step 1. The `Y.on('domread', function() {});` is required to ensure the content of the page is loaded before the plugin initializes.
 
 ```html
 <!-- Place in the <head>, after the three links -->
