@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>YUI 3 FlexSlider Demo</title>
+	
+	<!-- YUI 3 FlexSlider pieces -->
+	<link rel="stylesheet" href="flexslider.css" type="text/css" media="screen" />
+	<script src="http://yui.yahooapis.com/3.4.1/build/yui/yui-min.js"></script>
+	<script src="yui.flexslider.js"></script>
+	
+	<!-- Includes for this demo -->
+	<link rel="stylesheet" href="demo-stuff/demo.css" type="text/css" media="screen" />
+	
+	<!-- Hook up the YUI 3 FlexSlider -->
+	<script type="text/javascript">
+		YUI().use('flexslider', function(Y)
+		{
+			Y.on('domready', function () {
+				Y.all('.flexslider').flexslider();
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="container">
+		<h2>YUI 3 FlexSlider Demo - <a href="https://github.com/mediafreakch/YUI-Flexslider">Visit Github for documentation details</a></h2>
+		
+		<!--=============================
+		Markup for FADE animation
+		=================================-->
+		<div class="flexslider">
+	    <ul class="slides">
+	    	<li>
+	    		<img src="demo-stuff/inacup_samoa.jpg" />
+	    		<p class="flex-caption">Captions and cupcakes. Winning combination.</p>
+	    	</li>
+	    	<li>
+	    		<a href="#"><img src="demo-stuff/inacup_pumpkin.jpg" /></a>
+	    		<p class="flex-caption">This image is wrapped in a link!</p>
+	    	</li>
+	    	<li>
+	    		<img src="demo-stuff/inacup_donut.jpg" />
+	    	</li>
+	    	<li>
+	    		<img src="demo-stuff/inacup_vanilla.jpg" />
+	    	</li>
+	    </ul>
+	  </div>
+
+		<!--============================
+		Markup for SLIDE animation
+		You need to add an extra container element for the overflow: hidden property on the slider
+		
+		Update your flexslider() function with the following properties:
+		
+		<script type="text/javascript">
+			YUI().use('flexslider', function(Y)
+			{
+				Y.on('domready', function () {
+					Y.all('.flexslider').flexslider({
+				  		animation: "slide",
+				  		controlsContainer: ".flexslider-container"
+				 	});
+			  	});
+			});
+		</script>
+		=================================
+		<div class="flexslider-container">
+			<div class="flexslider">
+		    <ul class="slides">
+		    	<li>
+		    		<img src="demo-stuff/inacup_samoa.jpg" />
+		    		<p class="flex-caption">Captions and cupcakes. Winning combination.</p>
+		    	</li>
+		    	<li>
+		    		<a href="#"><img src="demo-stuff/inacup_pumpkin.jpg" /></a>
+		    		<p class="flex-caption">This image is wrapped in a link!</p>
+		    	</li>
+		    	<li>
+		    		<img src="demo-stuff/inacup_donut.jpg" />
+		    	</li>
+		    	<li>
+		    		<img src="demo-stuff/inacup_vanilla.jpg" />
+		    	</li>
+		    </ul>
+		  </div>
+	 	</div>
+		==================================-->
+	</div>
+</body>
+</html>
