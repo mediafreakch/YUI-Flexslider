@@ -1,7 +1,9 @@
 # Getting started
+
 ##Step 1 - Link files
 
-Add these items to the <head> of your document. This will link YUI 3 and the FlexSlider core CSS/JS files into your webpage.
+Add these items to the head of your document. This will link YUI 3 and the FlexSlider core CSS/JS files into your webpage.
+
 ```html
 <!-- Place somewhere in the <head> of your document -->
 <link rel="stylesheet" href="flexslider.css" type="text/css">
@@ -12,6 +14,7 @@ Add these items to the <head> of your document. This will link YUI 3 and the Fle
 ##Step 2 - Add markup
 
 The YUI 3 FlexSlider markup is simple and straightforward. First, start with a single containing element, <div class="flexslider"> in this example. Then, create a <ul class="slides">. It is important to use this class because the slider targets that class specifically. Put your images and anything else you desire into each <li> and you are ready to rock.
+
 ```html
 <!-- Place somewhere in the <body> of your page -->
 <div class="flexslider">
